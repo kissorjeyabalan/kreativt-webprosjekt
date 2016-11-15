@@ -1,7 +1,7 @@
 /**
  * CH01 - Resets
  * CH02 - Basic Styling
- * CH03 - Container
+ * CH03 - Global Content
  * CH04 - Helpers
  * CH05 - Animations
 **/
@@ -11,7 +11,6 @@
 /* -----------------------------------------*/
 /* ---------->>> CH01 - RESET <<<-----------*/
 /* -----------------------------------------*/
-
 html, head, body, div, span,
 h1, h2, h3, h4, h5, h6, p, a,
 img, ol, ul, li,
@@ -33,7 +32,6 @@ article, footer, header, section {
 /* -------------------------------------------------*/
 /* ---------->>> CH02 - BASIC STYLING <<<-----------*/
 /* -------------------------------------------------*/
-
 html {
   overflow: hidden;
   width: 100%;
@@ -60,10 +58,9 @@ a:active, a:hover{
 
 
 
-/* ---------------------------------------------*/
-/* ---------->>> CH03 - CONTAINER <<<-----------*/
-/* ---------------------------------------------*/
-
+/* --------------------------------------------------*/
+/* ---------->>> CH03 - GLOBAL CONTENT <<<-----------*/
+/* --------------------------------------------------*/
 .container {
   width: 978px;
   height: 600px;
@@ -78,12 +75,18 @@ a:active, a:hover{
   position: absolute;
 }
 
+.iPhone {
+  width: 702px;
+  height: 100%;
+  background-image: url('../img/global/iphone.png');
+  margin: 0;
+  padding: 0;
+}
 
 
 /* -------------------------------------------*/
 /* ---------->>> CH04 - Helpers <<<-----------*/
 /* -------------------------------------------*/
-
 .fadeIn {
   -webkit-animation: fadeIn 2s linear 1s 1 normal forwards;
   animation: fadeIn 2s linear 1s 1 normal forwards;
