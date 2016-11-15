@@ -80,7 +80,6 @@ a:active, a:hover{
   position: absolute;
   width: 70%;
   right: -211px;
-  top: 545px;
 }
 
 
@@ -105,13 +104,27 @@ a:active, a:hover{
   opacity: 0;
 }
 
-.slidePhoneUp {
-  -webkit-animation: slideUp 2s linear 1s 1 normal forwards;
-  animation: slideUp 2s linear 1s 1 normal forwards;
+.slidePhone {
+  -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
+  animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
 }
 
-.slideDown {
+.slidePhoneDown {
+  -webkit-animation: slidePhoneDown 3s linear 2s 1 normal forwards;
+  animation: slidePhoneDown 3s linear 2s 1 normal forwards;
+}
 
+.slidePhoneUp {
+  -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards
+  animation: slidePhoneUp 3s linear 1s 1 normal forwards
+}
+
+.hidePhone {
+  top: 545px;
+}
+
+.showPhone {
+  top: 200px;
 }
 
 
@@ -126,10 +139,28 @@ a:active, a:hover{
   }
 }
 
-@keyframes slidePhoneDown {
+@keyframes slidePhoneUp {
   0% {}
   100% {
     top: 200px;
+  }
+}
+
+@-webkit-keyframes slidePhoneDown {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 545px;
+  }
+}
+
+@keyframes slidePhoneDown {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 545px;
   }
 }
 
