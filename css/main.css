@@ -1,0 +1,141 @@
+/**
+ * CH01 - Resets
+ * CH02 - Basic Styling
+ * CH03 - Container
+ * CH04 - Helpers
+ * CH05 - Animations
+**/
+
+
+
+/* -----------------------------------------*/
+/* ---------->>> CH01 - RESET <<<-----------*/
+/* -----------------------------------------*/
+
+html, head, body, div, span,
+h1, h2, h3, h4, h5, h6, p, a,
+img, ol, ul, li,
+header, section, article, footer,
+audio {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  font-size: 100%
+}
+
+/* Reset HTML-5 display for older browsers */
+article, footer, header, section {
+  display: block;
+}
+
+
+
+/* -------------------------------------------------*/
+/* ---------->>> CH02 - BASIC STYLING <<<-----------*/
+/* -------------------------------------------------*/
+
+html {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+  background-color: #000;
+  color: black;
+  font-size: 13px;
+  height: auto;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active, a:hover{
+	color: #f56363;
+}
+
+
+
+/* ---------------------------------------------*/
+/* ---------->>> CH03 - CONTAINER <<<-----------*/
+/* ---------------------------------------------*/
+
+.container {
+  width: 978px;
+  height: 600px;
+  background-color: #fff;
+  margin: 50px auto;
+}
+
+.containerCover {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+
+/* -------------------------------------------*/
+/* ---------->>> CH04 - Helpers <<<-----------*/
+/* -------------------------------------------*/
+
+.fadeIn {
+  -webkit-animation: fadeIn 2s linear 1s 1 normal forwards;
+  animation: fadeIn 2s linear 1s 1 normal forwards;
+}
+
+.fadeOut {
+  -webkit-animation: fadeOut 2s linear 1s 1 normal forwards;
+  animation: fadeOut 2s linear 1s 1 normal forwards;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+
+/* ----------------------------------------------*/
+/* ---------->>> CH04 - Animations <<<-----------*/
+/* ----------------------------------------------*/
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
