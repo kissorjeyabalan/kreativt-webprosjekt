@@ -78,10 +78,23 @@ a:active, a:hover{
 
 .iPhone {
   position: absolute;
-  width: 70%;
-  right: -211px;
+  width: 100%;
+  left: 505px;
 }
 
+.iPhone img {
+  width: 70%;
+}
+
+.iPhone p {
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  width: 205px;
+  height: 10px;
+  left: 245px;
+  top: 181px;
+}
 
 /* -------------------------------------------*/
 /* ---------->>> CH04 - Helpers <<<-----------*/
@@ -115,8 +128,8 @@ a:active, a:hover{
 }
 
 .slidePhoneUp {
-  -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards
-  animation: slidePhoneUp 3s linear 1s 1 normal forwards
+  -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards;
+  animation: slidePhoneUp 3s linear 1s 1 normal forwards;
 }
 
 .hidePhone {
@@ -124,7 +137,7 @@ a:active, a:hover{
 }
 
 .showPhone {
-  top: 200px;
+  top: 210px;
 }
 
 
@@ -135,20 +148,20 @@ a:active, a:hover{
 @-webkit-keyframes slidePhoneUp {
   0% {}
   100% {
-    top: 200px;
+    top: 210px;
   }
 }
 
 @keyframes slidePhoneUp {
   0% {}
   100% {
-    top: 200px;
+    top: 210px;
   }
 }
 
 @-webkit-keyframes slidePhoneDown {
   0% {
-    top: 200px;
+    top: 210px;
   }
   100% {
     top: 545px;
@@ -157,7 +170,7 @@ a:active, a:hover{
 
 @keyframes slidePhoneDown {
   0% {
-    top: 200px;
+    top: 210px;
   }
   100% {
     top: 545px;
