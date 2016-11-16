@@ -84,7 +84,7 @@ a:active, a:hover{
   .iPhone img {
     width: 70%;
   }
-  .iPhone p {
+  .iPhone .textBox {
     position: absolute;
     color: white;
     font-size: 13px;
@@ -92,6 +92,10 @@ a:active, a:hover{
     height: 10px;
     left: 245px;
     top: 181px;
+  }
+
+  .iPhone .textBox p {
+    position: relative;
   }
 
 /* -------------------------------------------*/
@@ -142,6 +146,7 @@ a:active, a:hover{
 .showPhone {
   top: 210px;
 }
+
 
 
 /* ----------------------------------------------*/

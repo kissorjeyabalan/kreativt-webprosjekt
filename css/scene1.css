@@ -1,7 +1,6 @@
 /**
  * CH01 - Characters & Dialog
  * CH02 - Scene Setup
- * CH02 - Global Anim Delays
  * CH03 - Animations
 **/
 
@@ -12,8 +11,36 @@
 /* Setting start position for Rick. He will be moved onto the scene when
    neccessary */
 #rick {
-
+  position: absolute;
+  height: 300px;
+  left: -110px;
+  -webkit-animation: moveRight 1s linear 0.5s 1 normal forwards;
+  animation: moveRight 1s linear 0.5s 1 normal forwards;
 }
+
+#snakkeBoble {
+  position: absolute;
+  height: 40px;
+  width: 270px;
+  left: 77px;
+  top: 293px;
+  padding-top: 23px;
+  background-color: #fff;
+  -webkit-border-radius: 45%;
+  border-radius: 60%;
+	-webkit-border-bottom-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+	border:2px solid black;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 1.5s 1 normal forwards;
+  animation: fadeIn 1s linear 1.5s 1 normal forwards;
+}
+  #snakkeBoble p {
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    margin: -25px;
+  }
 
 /* -----------------------------------------------*/
 /* ---------->>> CH02 - SCENE SETUP <<<-----------*/
@@ -25,9 +52,9 @@
 
 #segway {
   position: absolute;
-  height: 100px;
-  bottom: 0;
-  left: 0;
+  height: 140px;
+  bottom: 80px;
+  left: 520px;
 }
 
 #tesla {
@@ -39,7 +66,16 @@
 
 #gsc {
   position: absolute;
-  height: 100px;
-  bottom: 0;
-  left: 0;
+  height: 200px;
+  bottom: 45px;
+  left: 700px;
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> CH01 - Animations <<<-----------*/
+/* ----------------------------------------------*/
+@keyframes moveRight {
+  100% {
+    left: 0px;
+  }
 }

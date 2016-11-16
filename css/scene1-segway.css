@@ -26,6 +26,7 @@
 
 .fadeIn {
   animation-delay: 8s;
+  animation-duration: 1s;
 }
 
 /* ----------------------------------------------*/
