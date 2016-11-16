@@ -1,0 +1,45 @@
+/**
+ * CH01 - Characters & Dialog
+ * CH02 - Scene Setup
+ * CH02 - Global Anim Delays
+ * CH03 - Animations
+**/
+
+/* -------------------------------------------------------*/
+/* ---------->>> CH01 - CHARACTERS & DIALOG <<<-----------*/
+/* -------------------------------------------------------*/
+
+/* Setting start position for Rick. He will be moved onto the scene when
+   neccessary */
+#rick {
+
+}
+
+/* -----------------------------------------------*/
+/* ---------->>> CH02 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
+
+#bg {
+  width: 100%;
+}
+
+#segway {
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+}
+
+#tesla {
+  position: absolute;
+  height: 220px;
+  bottom: 55px;
+  left: 162px;
+}
+
+#gsc {
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+}

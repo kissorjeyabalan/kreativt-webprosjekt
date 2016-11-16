@@ -1,0 +1,45 @@
+/**
+ * CH01 - Characters & Dialog
+ * CH02 - Global Anim Delays
+ * CH03 - Animations
+**/
+
+/* -------------------------------------------------------*/
+/* ---------->>> CH01 - CHARACTERS & DIALOG <<<-----------*/
+/* -------------------------------------------------------*/
+
+/* Brick starts to the left of container and is then moved to the right of the
+   scene using the animation moveRight. */
+#brick {
+  position: absolute;
+  height: 300px;
+  right: 985px;
+  bottom: 10px;
+  transform: rotate(5deg);
+  -webkit-animation: moveRight 5s linear 3s 1 normal forwards;
+  animation: moveRight 5s linear 3s 1 normal forwards;
+}
+
+/* ------------------------------------------------------*/
+/* ---------->>> CH02 - GLOBAL ANIM DELAYS <<<-----------*/
+/* ------------------------------------------------------*/
+
+.fadeIn {
+  animation-delay: 8s;
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
+@-webkit-keyframes moveRight {
+  100% {
+    right: -145px;
+  }
+}
+
+@keyframes moveRight {
+  100% {
+    right: -145px;
+  }
+}

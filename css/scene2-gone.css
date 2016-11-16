@@ -1,0 +1,86 @@
+/**
+ * CH01 - Characters & Dialog
+ * CH02 - Global Anim Delays
+ * CH03 - Animations
+**/
+
+/* -------------------------------------------------------*/
+/* ---------->>> CH01 - CHARACTERS & DIALOG <<<-----------*/
+/* -------------------------------------------------------*/
+
+/* Brick starts to the left of container and is then moved to the right of the
+   scene using the animation moveRight. */
+
+#brick {
+  position: absolute;
+  height: 275px;
+  bottom: 15px;
+  left: 300px;
+  -webkit-animation: moveRight 2s linear 3s 1 normal forwards;
+  animation: moveRight 2s linear 3s 1 normal forwards;
+}
+
+/* Snakkeboble for Brick dialog 1, forsvinner for sømløst overgang*/
+#snakkeBoble {
+  position: absolute;
+  height: 90px;
+  width: 300px;
+  left: 370px;
+  top: 253px;
+  padding-top: 25px;
+  background-color: #fff;
+  -webkit-border-radius: 45%;
+  border-radius: 60%;
+	-webkit-border-bottom-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+	border:2px solid black;
+  opacity: 1;
+  -webkit-animation: fadeOut 1s linear 1s 1 normal forwards;
+  animation: fadeOut 1s linear 1s 1 normal forwards;
+}
+  #snakkeBoble p {
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+/* Old scene cleanup */
+
+#oldScene {
+  animation-delay: 5s;
+}
+
+/* ------------------------------------------------------*/
+/* ---------->>> CH02 - GLOBAL ANIM DELAYS <<<-----------*/
+/* ------------------------------------------------------*/
+
+.slidePhoneDown {
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-duration: 1.5s;
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
+@-webkit-keyframes moveRight {
+  6% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+    left: 1000px;
+  }
+}
+
+@keyframes moveRight {
+  6% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+    left: 1000px;
+  }
+}
