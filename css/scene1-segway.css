@@ -24,7 +24,7 @@
 /* ---------->>> CH02 - GLOBAL ANIM DELAYS <<<-----------*/
 /* ------------------------------------------------------*/
 
-.fadeIn {
+.fade-in {
   animation-delay: 8s;
   animation-duration: 1s;
 }

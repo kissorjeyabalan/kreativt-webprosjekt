@@ -21,7 +21,7 @@
 }
 
 /* Snakkeboble for Brick dialog 1, forsvinner for sømløst overgang*/
-#snakkeBoble {
+#snakke-boble {
   position: absolute;
   height: 90px;
   width: 300px;
@@ -38,7 +38,7 @@
   -webkit-animation: fadeOut 1s linear 1s 1 normal forwards;
   animation: fadeOut 1s linear 1s 1 normal forwards;
 }
-  #snakkeBoble p {
+  #snakke-boble p {
     color: black;
     text-align: center;
     padding-top: 25px;
@@ -46,7 +46,7 @@
 
 /* Old scene cleanup */
 
-#oldScene {
+#old-scene {
   animation-delay: 5s;
 }
 
@@ -54,7 +54,7 @@
 /* ---------->>> CH02 - GLOBAL ANIM DELAYS <<<-----------*/
 /* ------------------------------------------------------*/
 
-.slidePhoneDown {
+.slide-phone-down {
   -webkit-animation-delay: 1s;
   -webkit-animation-duration: 1.5s;
   animation-delay: 1s;

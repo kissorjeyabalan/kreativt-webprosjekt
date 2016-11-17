@@ -22,7 +22,7 @@
 }
 
 /* Snakkeboble for Brick dialog 1 */
-#snakkeBoble {
+#snakke-boble {
   position: absolute;
   height: 90px;
   width: 300px;
@@ -39,7 +39,7 @@
   -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
   animation: fadeIn 1s linear 6s 1 normal forwards;
 }
-  #snakkeBoble p {
+  #snakke-boble p {
     color: black;
     text-align: center;
     padding-top: 25px;
@@ -49,7 +49,7 @@
 /* ---------->>> CH02 - GLOBAL ANIM DELAYS <<<-----------*/
 /* ------------------------------------------------------*/
 
-.slidePhoneUp {
+.slide-phone-up {
   -webkit-animation-delay: 7s;
   -webkit-animation-duration: 1.5s;
   animation-delay: 7s;

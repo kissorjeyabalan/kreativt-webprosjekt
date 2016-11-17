@@ -106,7 +106,7 @@ a:hover {
 .iphone img {
   width: 70%;
 }
-.iphone .textbox {
+.iphone .text-box {
   position: absolute;
   top: 181px;
   left: 245px;
@@ -115,7 +115,7 @@ a:hover {
   font-size: 13px;
   color: white;
 }
-.iphone .textbox p {
+.iphone .text-box p {
   position: relative;
 }
 
