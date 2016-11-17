@@ -1,0 +1,96 @@
+/**
+ * CH01 - Scene Setup
+ * CH02 - Game Over Setup
+ * CH03 - Animations
+**/
+
+/* -----------------------------------------------*/
+/* ---------->>> CH01 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
+
+#tesla {
+  position: absolute;
+  height: 59px;
+  top: 170px;
+  left: -135px;
+  transform: rotate(7deg);
+  -webkit-animation: moveRight 3s linear 0s 1 normal forwards;
+  animation: moveRight 3s linear 0s 1 normal forwards;
+}
+
+
+
+/* ---------------------------------------------------*/
+/* ---------->>> CH02 - GAME OVER SETUP <<<-----------*/
+/* ---------------------------------------------------*/
+
+.text{
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 600px;
+  font-size: 20px;
+  right: 201px;
+  top: 269px;
+}
+
+.fadeIn{
+  animation-delay: 3.5s;
+  animation-duration: 0.5s;
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
+@-webkit-keyframes moveRight {
+  70%{
+    top: 193px;
+    left: 355px;
+    transform: rotate(1deg);
+  }
+  80%{
+    top: 202px;
+    left: 433px;
+    transform: rotate(13deg);
+  }
+  82%{
+    top: 207px;
+    left: 446px;
+    transform: rotate(16deg);
+  }
+  85% {
+    transform: rotate(50deg);
+  }
+  100%{
+    top: 630px;
+    left: 465px;
+    transform: rotate(67deg);
+  }
+}
+
+@keyframes moveRight {
+  70%{
+    top: 193px;
+    left: 355px;
+    transform: rotate(1deg);
+  }
+  80%{
+    top: 202px;
+    left: 433px;
+    transform: rotate(13deg);
+  }
+  82%{
+    top: 207px;
+    left: 446px;
+    transform: rotate(16deg);
+  }
+  85% {
+    transform: rotate(50deg);
+  }
+  100%{
+    top: 630px;
+    left: 465px;
+    transform: rotate(67deg);
+  }
+}

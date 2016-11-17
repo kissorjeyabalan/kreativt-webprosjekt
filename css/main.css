@@ -43,7 +43,6 @@ body {
   color: black;
   font-size: 13px;
   height: auto;
-  overflow: hidden;
 }
 
 a, a:link, a:visited {
@@ -93,10 +92,9 @@ a:active, a:hover{
     left: 245px;
     top: 181px;
   }
-
-  .iPhone .textBox p {
-    position: relative;
-  }
+    .iPhone .textBox p {
+      position: relative;
+    }
 
 /* -------------------------------------------*/
 /* ---------->>> CH04 - Helpers <<<-----------*/
