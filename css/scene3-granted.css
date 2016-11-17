@@ -1,0 +1,92 @@
+#castle {
+  position: absolute;
+  heigth: 600px;
+  width: 980px;
+  z-index: 0;
+}
+
+#codepad {
+  position: absolute;
+  width: 30px;
+  left: 562px;
+  bottom: 116px;
+}
+
+#left-door {
+  position: absolute;
+  height: 180px;
+  left: 416px;
+  bottom: 28px;
+  -webkit-animation: slideLeft 4s ease 1.7s 1 normal forwards;
+  animation: slideLeft 4s ease 1.7s 1 normal forwards;
+}
+
+#right-door {
+  position: absolute;
+  height: 190px;
+  left: 466px;
+  bottom: 22px;
+  transform: rotateY(0deg);
+  -webkit-animation: slideRight 4s ease 1.7s 1 normal forwards;
+  animation: slideRight 4s ease 1.7s 1 normal forwards;
+}
+
+#rick {
+  position: absolute;
+  height: 200px;
+  bottom: 5px;
+  left: 510px;
+  -webkit-animation: intoDoor 5s ease 4s 1 normal forwards;
+  animation: intoDoor 5s ease 4s 1 normal forwards;
+}
+
+.iphone h1 {
+  color: green;
+  text-align: center;
+  margin-right: 1px;
+  font-size: 3em;
+}
+
+.slide-phone-down {
+  animation-delay: 3s;
+}
+@keyframes slideLeft {
+  100% {
+    left: 392px;
+  }
+}
+
+#black-out {
+  animation-delay: 6.5s;
+}
+
+@keyframes slideRight {
+  100% {
+    left: 492px;
+  }
+}
+
+@keyframes intoDoor {
+  2%{
+    transform: rotate(-10deg);
+  }
+  42% {
+      transform: rotate(-5deg);
+  }
+  47% {
+      transform: rotate(0deg);
+  }
+  50% {
+    left: 356px;
+  }
+  52% {
+    transform: rotate(10deg);
+  }
+  92% {
+    transform: rotate(5deg);
+  }
+  100% {
+    left: 437px;
+  }
+
+}
