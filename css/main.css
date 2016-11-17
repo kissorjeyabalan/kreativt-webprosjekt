@@ -11,19 +11,39 @@
 /* -----------------------------------------*/
 /* ---------->>> CH01 - RESET <<<-----------*/
 /* -----------------------------------------*/
-html, head, body, div, span,
-h1, h2, h3, h4, h5, h6, p, a,
-img, ol, ul, li,
-header, section, article, footer,
+html,
+head,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li,
+header,
+section,
+article,
+footer,
 audio {
+  bottom: 0;
   margin: 0;
   padding: 0;
-  bottom: 0;
-  font-size: 100%
+  font-size: 100%;
 }
 
 /* Reset HTML-5 display for older browsers */
-article, footer, header, section {
+article,
+footer,
+header,
+section {
   display: block;
 }
 
@@ -38,20 +58,23 @@ html {
 }
 
 body {
-  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
-  background-color: #000;
-  color: black;
-  font-size: 13px;
   height: auto;
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+  font-size: 13px;
+  color: black;
+  background-color: #000;
 }
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   text-decoration: none;
   color: white;
 }
 
-a:active, a:hover{
-	color: #f56363;
+a:active,
+a:hover {
+  color: #f56363;
 }
 
 
@@ -60,58 +83,58 @@ a:active, a:hover{
 /* ---------->>> CH03 - GLOBAL CONTENT <<<-----------*/
 /* --------------------------------------------------*/
 .container {
-  width: 978px;
-  height: 600px;
-  background-color: #000;
-  margin: 50px auto;
   position: relative;
   overflow: hidden;
-}
-
-.containerCover {
+  width: 978px;
+  height: 600px;
+  margin: 50px auto;
   background-color: #000;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
-.iPhone {
+.container-cover {
   position: absolute;
   width: 100%;
-  left: 505px;
+  height: 100%;
+  background-color: #000;
 }
-  .iPhone img {
-    width: 70%;
-  }
-  .iPhone .textBox {
-    position: absolute;
-    color: white;
-    font-size: 13px;
-    width: 205px;
-    height: 10px;
-    left: 245px;
-    top: 181px;
-  }
-    .iPhone .textBox p {
-      position: relative;
-    }
+
+.iphone {
+  position: absolute;
+  left: 505px;
+  width: 100%;
+}
+.iphone img {
+  width: 70%;
+}
+.iphone .textbox {
+  position: absolute;
+  top: 181px;
+  left: 245px;
+  width: 205px;
+  height: 10px;
+  font-size: 13px;
+  color: white;
+}
+.iphone .textbox p {
+  position: relative;
+}
 
 /* -------------------------------------------*/
 /* ---------->>> CH04 - Helpers <<<-----------*/
 /* -------------------------------------------*/
-.fadeIn {
+.fade-in {
   -webkit-animation: fadeIn 2s linear 1s 1 normal forwards;
-  animation: fadeIn 2s linear 1s 1 normal forwards;
+          animation: fadeIn 2s linear 1s 1 normal forwards;
 }
 
-.fadeOut {
+.fade-out {
   -webkit-animation: fadeOut 2s linear 1s 1 normal forwards;
-  animation: fadeOut 2s linear 1s 1 normal forwards;
+          animation: fadeOut 2s linear 1s 1 normal forwards;
 }
 
-.fadeInOut {
+.fade-in-out {
   -webkit-animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
-  animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
+          animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
 }
 
 .show {
@@ -122,26 +145,26 @@ a:active, a:hover{
   opacity: 0;
 }
 
-.slidePhone {
+.slide-phone {
   -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
-  animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
+          animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
 }
 
-.slidePhoneDown {
+.slide-phone-down {
   -webkit-animation: slidePhoneDown 3s linear 2s 1 normal forwards;
-  animation: slidePhoneDown 3s linear 2s 1 normal forwards;
+          animation: slidePhoneDown 3s linear 2s 1 normal forwards;
 }
 
-.slidePhoneUp {
+.slide-phone-up {
   -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards;
-  animation: slidePhoneUp 3s linear 1s 1 normal forwards;
+          animation: slidePhoneUp 3s linear 1s 1 normal forwards;
 }
 
-.hidePhone {
+.hide-phone {
   top: 545px;
 }
 
-.showPhone {
+.show-phone {
   top: 210px;
 }
 
@@ -152,14 +175,16 @@ a:active, a:hover{
 /* ----------------------------------------------*/
 
 @-webkit-keyframes slidePhoneUp {
-  0% {}
+  0% {
+  }
   100% {
     top: 210px;
   }
 }
 
 @keyframes slidePhoneUp {
-  0% {}
+  0% {
+  }
   100% {
     top: 210px;
   }
@@ -188,39 +213,39 @@ a:active, a:hover{
 /* --------------------------------------- */
 
 @-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* --------------------------------------- */
 
 @-webkit-keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
