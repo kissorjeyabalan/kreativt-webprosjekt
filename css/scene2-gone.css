@@ -48,6 +48,7 @@
 
 #old-scene {
   animation-delay: 5s;
+  animation-duration: 1s;
 }
 
 /* ------------------------------------------------------*/
@@ -60,6 +61,7 @@
   animation-delay: 1s;
   animation-duration: 1.5s;
 }
+
 
 /* ----------------------------------------------*/
 /* ---------->>> CH03 - ANIMATIONS <<<-----------*/

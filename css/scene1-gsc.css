@@ -45,17 +45,17 @@
 
 @-webkit-keyframes moveRight {
   70%{
-    top: 193px;
+    top: 190px;
     left: 355px;
     transform: rotate(1deg);
   }
   80%{
-    top: 202px;
+    top: 174px;
     left: 433px;
     transform: rotate(13deg);
   }
   82%{
-    top: 207px;
+    top: 184px;
     left: 446px;
     transform: rotate(16deg);
   }
@@ -71,17 +71,17 @@
 
 @keyframes moveRight {
   70%{
-    top: 193px;
+    top: 190px;
     left: 355px;
     transform: rotate(1deg);
   }
   80%{
-    top: 202px;
+    top: 154px;
     left: 433px;
     transform: rotate(13deg);
   }
   82%{
-    top: 207px;
+    top: 184px;
     left: 446px;
     transform: rotate(16deg);
   }

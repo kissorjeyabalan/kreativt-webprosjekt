@@ -38,7 +38,7 @@
 #intro-content {
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 0.5s infinite;
+    animation: scroll 145s linear 0.5s 1;
     color: yellow;
     text-align: center;
 }
@@ -47,6 +47,34 @@
     font-size: 2em;
 }
 
+/* Start game */
+#rick {
+    position: absolute;
+    height: 710px;
+    left: -90px;
+    bottom: -240px;
+}
+
+#start {
+    position: absolute;
+    color: white;
+    font-size: 9em;
+    right: 210px;
+    bottom: 83px;
+}
+
+#intro-wrapper {
+    -webkit-animation-delay: 14s;
+    animation-delay: 14s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+#start-game {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
 /* --------------------------------------------------------*/
 /* ---------->>> CH02 - GLOBAL STYLE CHANGES <<<-----------*/
 /* --------------------------------------------------------*/
