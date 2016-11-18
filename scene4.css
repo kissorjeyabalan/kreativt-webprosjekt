@@ -3,18 +3,22 @@
 #rick {
   position: absolute;
   height: 400px;
-  left: 0;
-   bottom: 0;
+
+  bottom: 0px;
+  left: 0px;
+  transform: rotate(5deg);
+  -webkit-animation: moveRight 3s linear 3s 1 normal forwards;
+  animation: moveRight 4s linear 3s 1 normal forwards;
     
-   
 }
+   
 
 #vakthund {
   position: absolute;
     height: 300px;
     left: 0;
     bottom: 0;
-    
+    padding-right: 370px;
     
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -25,3 +29,7 @@
 
     
 }
+
+
+
+
