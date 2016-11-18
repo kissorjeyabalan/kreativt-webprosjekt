@@ -13,31 +13,33 @@
     right: 5px;
     }
 
-.spin-won {
-    margin: 20px;
-    height: 0px;
-    background: #f00;
-    -webkit-animation-name: spin-won;
-    -webkit-animation-duration: 2000ms;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
+.winner {
+   
+    -webkit-animation: blink normal 2s infinite ease-in-out;
     
-    
-    animation-name: spin-won;
-    animation-duration: 2000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation: blink normal 2s infinite ease-in-out;
 }
 
-@-webkit-keyframes spin-won {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin-won {
-    from {
-        transform:rotate(0deg);
+@keyframes blink {
+    0% {
+        opacity:1;
     }
-    to {
-        transform:rotate(-360deg);
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
     }
 }
