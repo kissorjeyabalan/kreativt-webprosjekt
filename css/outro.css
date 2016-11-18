@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 978px;
+  height: 600px;
+  margin: 50px auto;
+  background: radial-gradient(circle, #0000CD, #8B4513);
+}
+#dancerick{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    right: 5px;
+    }
+
+.winner {
+   
+    -webkit-animation: blink normal 2s infinite ease-in-out;
+    
+    animation: blink normal 2s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
