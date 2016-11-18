@@ -4,7 +4,7 @@
   width: 978px;
   height: 600px;
   margin: 50px auto;
-  background-color: white;
+  background: radial-gradient(circle, #0000CD, #8B4513);
 }
 #dancerick{
     position: absolute;
