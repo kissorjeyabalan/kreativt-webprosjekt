@@ -3,12 +3,12 @@
 #rick {
   position: absolute;
   height: 400px;
-
-  bottom: 0px;
+ bottom: 0px;
   left: 0px;
+
   transform: rotate(5deg);
   -webkit-animation: moveRight 3s linear 3s 1 normal forwards;
-  animation: moveRight 4s linear 3s 1 normal forwards;
+  animation: moveRight 3s linear 3s 1 normal forwards;
     
 }
    
@@ -27,6 +27,31 @@
     filter: FlipH;
     -ms-filter: "FlipH";
 
+    
+}
+
+#snakkeboble {
+position: absolute;
+  height: 80px;
+  width: 300px;
+  left: 250px;
+  top: 153px;
+  padding-top: 55px;
+    padding-left: 20px;
+  background-color: #fff;
+    
+    
+  -webkit-border-radius: 45%;
+  border-radius: 60%;
+    
+    
+	-webkit-border-bottom-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+	border:2px solid black;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
+  animation: fadeIn 1s linear 2s 1 normal forwards;
+    
     
 }
 
