@@ -5,10 +5,9 @@
   height: 400px;
  bottom: 0px;
   left: 0px;
+    
+  animation: rick 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
 
-  transform: rotate(5deg);
-  -webkit-animation: moveRight 3s linear 3s 1 normal forwards;
-  animation: moveRight 3s linear 3s 1 normal forwards;
     
 }
    
@@ -34,8 +33,8 @@
 position: absolute;
   height: 80px;
   width: 300px;
-  left: 250px;
-  top: 153px;
+  left: 290px;
+  top: 200px;
   padding-top: 55px;
     padding-left: 20px;
   background-color: #fff;
@@ -53,6 +52,25 @@ position: absolute;
   animation: fadeIn 1s linear 2s 1 normal forwards;
     
     
+}
+
+
+@keyframes rick {
+  0% {
+      left: -20px;
+  }
+  5% {
+      transform: rotate(10deg);
+  }
+  85% {
+      transform: rotate(5deg);
+  }
+  95% {
+      transform: rotate(0deg);
+  }
+  100% {
+      left: 160px;
+  }
 }
 
 
