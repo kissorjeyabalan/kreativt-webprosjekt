@@ -2,14 +2,26 @@
 
 #rick {
   position: absolute;
-  height: 200px;
+  height: 400px;
   left: 0;
    bottom: 0;
+    
+   
 }
 
 #vakthund {
   position: absolute;
-    height: 200px;
+    height: 300px;
     left: 0;
     bottom: 0;
+    
+    
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+
+    
 }
