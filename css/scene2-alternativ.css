@@ -1,0 +1,74 @@
+/*Brick ruller inn i ghetto hjørnet som er feil alternativ */
+#brick {
+    position: absolute;
+    width: 20%;
+    animation: moveRight 3s ease 0s 1 normal forwards;
+}
+
+@keyframes moveRight {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+/* old man kommer inn */
+#oldman {
+    position: absolute;
+    width: 60%;
+    animation: moveLeft 6s ease 0s 1 normal backwards;
+    right: 90px;
+}
+
+@keyframes moveLeft {
+    from {
+        right: -700px;
+    }
+    to {
+        right: 90px;
+    }
+
+}
+
+
+/* snakkeboble */
+#snakke-boble {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    left: 320px;
+    top: 200px;
+    padding-top: 15px;
+    background-color: #fff;
+    -webkit-border-radius: 60% 60% 1% 60%;
+    border-radius: 60% 60% 1% 60%;
+    border: 5px solid black;
+    opacity: 0;
+    animation: fadeIn 0.7s linear 4s 1 normal forwards, fadeOut 0.2s linear 8s 1 normal forwards;
+}
+
+#snakke-boble p {
+    color: black;
+    text-align: center;
+    padding-top: 65px;
+    margin: -25px;
+}
+
+/* game over */
+
+.text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+    right: 201px;
+    top: 269px;
+}
+
+.fade-in{
+    animation-delay: 9s;
+    animation-duration: 0.5s;
+}

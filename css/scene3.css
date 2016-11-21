@@ -1,98 +1,99 @@
 #castle {
-  position: absolute;
-  heigth: 600px;
-  width: 980px;
-  z-index: 0;
+    position: absolute;
+    /*height: 600px;*/
+    width: 980px;
+    z-index: 0;
 }
 
 #codepad {
-  position: absolute;
-  width: 30px;
-  left: 562px;
-  bottom: 116px;
+    position: absolute;
+    width: 30px;
+    left: 562px;
+    bottom: 116px;
 }
 
 #left-door {
-  position: absolute;
-  height: 180px;
-  left: 416px;
-  bottom: 28px;
+    position: absolute;
+    height: 180px;
+    left: 416px;
+    bottom: 28px;
 }
 
 #right-door {
-  position: absolute;
-  height: 190px;
-  left: 466px;
-  bottom: 22px;
+    position: absolute;
+    height: 190px;
+    left: 466px;
+    bottom: 22px;
 }
 
 #rick {
-  position: absolute;
-  height: 200px;
-  bottom: 5px;
-  left: -20px;
-  animation: rick 3s ease 0s 1 normal forwards, goToCodepad 3s ease 7s normal forwards;
+    position: absolute;
+    height: 200px;
+    bottom: 5px;
+    left: -20px;
+    animation: rick 3s ease 0s 1 normal forwards, goToCodepad 3s ease 7s normal forwards;
 }
 
 #snakke-boble {
-  position: absolute;
-  height: 95px;
-  width: 230px;
-  left: 100px;
-  top: 313px;
-  padding-top: 25px;
-  background-color: #fff;
-  -webkit-border-radius: 45%;
-  border-radius: 60%;
-  -webkit-border-bottom-right-radius: 1%;
-  border-bottom-right-radius: 1%;
-  border: 2px solid black;
-  opacity: 0;
-  animation: fadeIn 0.7s linear 3s 1 normal forwards, fadeOut 0.2s linear 7s 1 normal forwards;
+    position: absolute;
+    height: 95px;
+    width: 230px;
+    left: 100px;
+    top: 313px;
+    padding-top: 25px;
+    background-color: #fff;
+    -webkit-border-radius: 45%;
+    border-radius: 60%;
+    -webkit-border-bottom-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+    border: 2px solid black;
+    opacity: 0;
+    animation: fadeIn 0.7s linear 3s 1 normal forwards, fadeOut 0.2s linear 7s 1 normal forwards;
 }
+
 #snakke-boble p {
-  color: black;
-  text-align: center;
-  padding-top: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .slide-phone-up {
-  animation-delay: 10.3s;
-  animation-duration: 1.5s;
+    animation-delay: 10.3s;
+    animation-duration: 1.5s;
 }
 
 @keyframes rick {
-  0% {
-      left: -20px;
-  }
-  5% {
-      transform: rotate(10deg);
-  }
-  85% {
-      transform: rotate(5deg);
-  }
-  95% {
-      transform: rotate(0deg);
-  }
-  100% {
-      left: 320px;
-  }
+    0% {
+        left: -20px;
+    }
+    5% {
+        transform: rotate(10deg);
+    }
+    85% {
+        transform: rotate(5deg);
+    }
+    95% {
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 320px;
+    }
 }
 
 @keyframes goToCodepad {
-  0% {
-      left: 320px;
-  }
-  5% {
-      transform: rotate(10deg);
-  }
-  85% {
-      transform: rotate(5deg);
-  }
-  95% {
-      transform: rotate(0deg);
-  }
-  100% {
-      left: 510px;
-  }
+    0% {
+        left: 320px;
+    }
+    5% {
+        transform: rotate(10deg);
+    }
+    85% {
+        transform: rotate(5deg);
+    }
+    95% {
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 510px;
+    }
 }

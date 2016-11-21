@@ -1,40 +1,40 @@
 #castle {
-  position: absolute;
-  heigth: 600px;
-  width: 980px;
-  z-index: 0;
+    position: absolute;
+    heigth: 600px;
+    width: 980px;
+    z-index: 0;
 }
 
 #codepad {
-  position: absolute;
-  width: 30px;
-  left: 562px;
-  bottom: 116px;
+    position: absolute;
+    width: 30px;
+    left: 562px;
+    bottom: 116px;
 }
 
 #left-door {
-  position: absolute;
-  height: 180px;
-  left: 416px;
-  bottom: 28px;
+    position: absolute;
+    height: 180px;
+    left: 416px;
+    bottom: 28px;
 }
 
 #right-door {
-  position: absolute;
-  height: 190px;
-  left: 466px;
-  bottom: 22px;
+    position: absolute;
+    height: 190px;
+    left: 466px;
+    bottom: 22px;
 }
 
 #rick {
-  position: absolute;
-  height: 200px;
-  bottom: 5px;
-  left: 510px;
+    position: absolute;
+    height: 200px;
+    bottom: 5px;
+    left: 510px;
 }
 
 .iphone h1 {
-  color: red;
-  text-align: center;
-  font-size: 3em;
+    color: red;
+    text-align: center;
+    font-size: 3em;
 }
