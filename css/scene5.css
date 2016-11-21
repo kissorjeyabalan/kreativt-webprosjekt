@@ -1,39 +1,44 @@
-#tech{
+/* scene setup */
+#tech {
     position: absolute;
-    width: 110%;
+    height: 100%;
 }
 
-#brick{
+#brick {
     position: absolute;
-    width: 20%;
+    height: 322px;
+    bottom: 10px;
     animation: moveRight 3s ease 0s 1 normal forwards;
 }
 
-#boss{
+#boss {
     position: absolute;
-    width: 40%;
+    width: 395px;
     left: 350px;
     top: -20px;
 }
 
-@keyframes moveRight {
-    from {left: -100px;}
-    to {left: 100px;}
-}
-
-#bazooka{
+#bazooka {
     position: absolute;
-    width: 20%;
+    width: 190px;
     left: 700px;
-    top: 450px;
-    
+    top: 524px;
+    transform: rotate(15deg);
 }
 
-#kjeks{
+#kjeks {
     position: absolute;
-    width: 10%;
+    width: 80px;
     left: 450px;
     top: 500px;
-    
-    
+}
+
+/* animations */
+@keyframes moveRight {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 100px;
+    }
 }
