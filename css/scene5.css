@@ -20,3 +20,20 @@
     from {left: -100px;}
     to {left: 100px;}
 }
+
+#bazooka{
+    position: absolute;
+    width: 20%;
+    left: 700px;
+    top: 450px;
+    
+}
+
+#kjeks{
+    position: absolute;
+    width: 10%;
+    left: 450px;
+    top: 500px;
+    
+    
+}
