@@ -30,11 +30,9 @@
   top: 253px;
   padding-top: 25px;
   background-color: #fff;
-  -webkit-border-radius: 45%;
-  border-radius: 60%;
-	-webkit-border-bottom-left-radius: 1%;
-  border-bottom-left-radius: 1%;
-	border:2px solid black;
+  -webkit-border-radius: 60% 60% 60% 1%;
+  border-radius: 60% 60% 60% 1%;
+  border:2px solid black;
   opacity: 0;
   -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
   animation: fadeIn 1s linear 6s 1 normal forwards;

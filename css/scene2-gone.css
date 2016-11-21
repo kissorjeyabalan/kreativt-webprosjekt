@@ -29,11 +29,9 @@
   top: 253px;
   padding-top: 25px;
   background-color: #fff;
-  -webkit-border-radius: 45%;
-  border-radius: 60%;
-	-webkit-border-bottom-left-radius: 1%;
-  border-bottom-left-radius: 1%;
-	border:2px solid black;
+  -webkit-border-radius: 45% 45% 45% 1%;
+  border-radius: 60% 60% 60% 1%;
+  border:2px solid black;
   opacity: 1;
   -webkit-animation: fadeOut 1s linear 1s 1 normal forwards;
   animation: fadeOut 1s linear 1s 1 normal forwards;

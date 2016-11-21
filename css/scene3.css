@@ -37,15 +37,13 @@
 #snakke-boble {
     position: absolute;
     height: 95px;
-    width: 230px;
+    width: 230px;   
     left: 100px;
     top: 313px;
     padding-top: 25px;
     background-color: #fff;
-    -webkit-border-radius: 45%;
-    border-radius: 60%;
-    -webkit-border-bottom-right-radius: 1%;
-    border-bottom-right-radius: 1%;
+    -webkit-border-radius: 60% 60% 1% 60%;
+    border-radius: 60% 60% 1% 60%;
     border: 2px solid black;
     opacity: 0;
     animation: fadeIn 0.7s linear 3s 1 normal forwards, fadeOut 0.2s linear 7s 1 normal forwards;
