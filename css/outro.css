@@ -43,3 +43,16 @@
         opacity:1;
     }
 }
+    h1{
+        font-family:monospace;
+        color: black;
+    }
+    h2{
+        font-family: monospace;
+        color: black;
+        
+    }
+    h3{
+        color: black;
+        font-family: monospace;
+    }
