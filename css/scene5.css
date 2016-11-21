@@ -1,17 +1,12 @@
 #tech{
     position: absolute;
     width: 110%;
-    
-    
 }
 
 #brick{
-    
     position: absolute;
     width: 20%;
     animation: moveRight 3s ease 0s 1 normal forwards;
-
-    
 }
 
 #boss{
@@ -19,7 +14,6 @@
     width: 40%;
     left: 350px;
     top: -20px;
-    
 }
 
 @keyframes moveRight {
