@@ -32,7 +32,6 @@
 
 }
 
-
 /* snakkeboble */
 #snakke-boble {
     position: absolute;
@@ -57,7 +56,7 @@
 }
 
 /* game over */
-.text{
+.text {
     position: absolute;
     color: white;
     text-align: center;
@@ -67,7 +66,7 @@
     top: 269px;
 }
 
-.fade-in{
+.fade-in {
     animation-delay: 9s;
     animation-duration: 0.5s;
 }
