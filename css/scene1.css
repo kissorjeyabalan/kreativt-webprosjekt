@@ -26,11 +26,9 @@
   top: 293px;
   padding-top: 23px;
   background-color: #fff;
-  -webkit-border-radius: 45%;
-  border-radius: 60%;
-	-webkit-border-bottom-left-radius: 1%;
-  border-bottom-left-radius: 1%;
-	border:2px solid black;
+  -webkit-border-radius: 60% 60% 60% 1%;
+  border-radius: 60% 60% 60% 1%;
+  border:2px solid black;
   opacity: 0;
   -webkit-animation: fadeIn 1s linear 1.5s 1 normal forwards;
   animation: fadeIn 1s linear 1.5s 1 normal forwards;
@@ -71,11 +69,19 @@
   left: 700px;
 }
 
+a img {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+a img:hover {
+  transform: scale(1.1);
+}
+
 /* ----------------------------------------------*/
 /* ---------->>> CH01 - Animations <<<-----------*/
 /* ----------------------------------------------*/
 @keyframes moveRight {
   100% {
-    left: 0px;
+    left: 0;
   }
 }
