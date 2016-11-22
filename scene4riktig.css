@@ -1,0 +1,80 @@
+
+
+#segway {
+position: absolute;
+height: 200px;
+bottom: 0px;
+left: 0px;
+    
+animation: rick 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
+
+    
+}
+
+#rick {
+position: absolute;
+height: 400px;
+bottom: -20px;
+left: 0px;
+    
+
+
+    
+}
+
+   
+
+#vakthund {
+position: absolute;
+height: 300px;
+left: 0;
+bottom: 0;
+padding-right: 370px;
+    
+-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+ 
+    }
+
+#bang {
+    
+position: absolute;
+height: 350px;
+left: 300px;
+bottom: -30px;
+padding-right: 370px;
+    
+-webkit-border-bottom-left-radius: 1%;
+border-bottom-left-radius: 1%;
+border:2px solid black;
+opacity: 0;
+-webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
+animation: fadeIn 1s linear 2s 1 normal forwards; 
+    
+    
+    
+}
+
+
+
+
+
+@keyframes rick {
+  0% {
+      left: 0px;
+  }
+  5% {
+      transform: rotate(10deg);
+  }
+  85% {
+      transform: rotate(5deg);
+  }
+  95% {
+      transform: rotate(0deg);
+  }
+  100% {
+      left: 500px;
+  }
+}s
