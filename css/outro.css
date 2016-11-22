@@ -6,11 +6,24 @@
   margin: 50px auto;
   background: radial-gradient(circle, #0000CD, #8B4513);
 }
+a{
+    position: absolute;
+    height: 180px;
+    left: 250px;
+}
+p{
+    position: absolute;
+    color: red;
+    height: 260px;
+    font-size: 4em;
+    font-family: cursive;
+    left: 10px;
+}
 #dancerick{
     position: absolute;
     height: 400px;
     width: 500px;
-    right: 5px;
+    right: -20px;
     }
 
 .winner {
