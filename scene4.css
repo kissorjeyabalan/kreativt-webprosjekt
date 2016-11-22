@@ -24,25 +24,26 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
  
-    
-}
+    }
+
 
 #snakkeboble {
 position: absolute;
-  height: 80px;
-  width: 300px;
-  left: 290px;
-  top: 200px;
-  padding-top: 55px;
-    padding-left: 20px;
-  background-color: #fff;
+height: 80px;
+width: 300px;
+left: 290px;
+top: 200px;
+padding-top: 55px;
+padding-left: 20px;
+background-color: #fff;
+
     
     
   -webkit-border-radius: 45%;
   border-radius: 60%;
     
     
-	-webkit-border-bottom-left-radius: 1%;
+-webkit-border-bottom-left-radius: 1%;
   border-bottom-left-radius: 1%;
 	border:2px solid black;
   opacity: 0;
@@ -51,6 +52,23 @@ position: absolute;
     
 }
 
+#alternativer {
+    
+position: absolute;
+height: 80px;
+width: 300px;
+left: 290px;
+top: 200px;
+padding-top: 90px;
+padding-left: 20px;
+    
+
+ opacity: 0;
+  -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
+  animation: fadeIn 1s linear 2s 1 normal forwards;
+    
+    
+}
 
 
 
