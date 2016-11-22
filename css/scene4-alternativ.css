@@ -1,0 +1,96 @@
+/**
+ * CH01 - Scene Setup
+ * CH02 - Game Over
+ * CH03 - Animations
+**/
+
+/* -----------------------------------------------*/
+/* ---------->>> CH01 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
+#rickSegway {
+    position: absolute;
+    height: 400px;
+    left: 160px;
+    bottom: 15px;
+    transform: rotate(5deg);
+    -webkit-animation: rickSegway 4s linear 0s 1 normal forwards;
+    animation: rickSegway 4s linear 0s 1 normal forwards;
+}
+
+#evildog {
+    position: absolute;
+    height: 300px;
+    left: 0;
+    bottom: 0;
+    padding-right: 500px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-animation: evildog 2s linear 3s 1 normal forwards;
+    animation: evildog 2s linear 3s 1 normal forwards;
+
+}
+
+#snakke-boble {
+    height: 90px;
+    width: 120px;
+    left: 410px;
+    top: 200px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
+    animation: fadeIn 1s linear 6s 1 normal forwards;
+}
+
+/* ---------------------------------------------*/
+/* ---------->>> CH02 - GAME OVER <<<-----------*/
+/* ---------------------------------------------*/
+
+#game-over {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
+@-webkit-keyframes rickSegway {
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        left: 300px;
+    }
+}
+
+@keyframes rickSegway {
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        left: 300px;
+    }
+}
+
+@-webkit-keyframes evildog {
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        right: 300px;
+    }
+}
+
+@keyframes evildog {
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        right: 300px;
+    }
+}

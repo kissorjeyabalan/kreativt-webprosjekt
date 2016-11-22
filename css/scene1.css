@@ -11,77 +11,78 @@
 /* Setting start position for Rick. He will be moved onto the scene when
    neccessary */
 #rick {
-  position: absolute;
-  height: 300px;
-  left: -110px;
-  -webkit-animation: moveRight 1s linear 0.5s 1 normal forwards;
-  animation: moveRight 1s linear 0.5s 1 normal forwards;
+    position: absolute;
+    height: 300px;
+    left: -110px;
+    -webkit-animation: moveRight 1s linear 0.5s 1 normal forwards;
+    animation: moveRight 1s linear 0.5s 1 normal forwards;
 }
 
-#snakke-boble {
-  position: absolute;
-  height: 40px;
-  width: 270px;
-  left: 77px;
-  top: 293px;
-  padding-top: 23px;
-  background-color: #fff;
-  -webkit-border-radius: 60% 60% 60% 1%;
-  border-radius: 60% 60% 60% 1%;
-  border:2px solid black;
-  opacity: 0;
-  -webkit-animation: fadeIn 1s linear 1.5s 1 normal forwards;
-  animation: fadeIn 1s linear 1.5s 1 normal forwards;
+#dial {
+    height: 40px;
+    width: 270px;
+    left: 77px;
+    top: 293px;
+    padding-top: 23px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s linear 1.5s 1 normal forwards;
+    animation: fadeIn 1s linear 1.5s 1 normal forwards;
 }
-  #snakke-boble p {
-    color: black;
-    text-align: center;
+
+#dial p {
     padding-top: 25px;
     margin: -25px;
-  }
+}
 
 /* -----------------------------------------------*/
 /* ---------->>> CH02 - SCENE SETUP <<<-----------*/
 /* -----------------------------------------------*/
 
 #bg {
-  width: 100%;
+    width: 100%;
 }
 
 #segway {
-  position: absolute;
-  height: 140px;
-  bottom: 80px;
-  left: 520px;
+    position: absolute;
+    height: 140px;
+    bottom: 80px;
+    left: 520px;
 }
 
 #tesla {
-  position: absolute;
-  height: 220px;
-  bottom: 55px;
-  left: 162px;
+    position: absolute;
+    height: 220px;
+    bottom: 55px;
+    left: 162px;
 }
 
 #gsc {
-  position: absolute;
-  height: 200px;
-  bottom: 45px;
-  left: 700px;
+    position: absolute;
+    height: 200px;
+    bottom: 45px;
+    left: 700px;
 }
 
 a img {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
+
 a img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* ----------------------------------------------*/
 /* ---------->>> CH01 - Animations <<<-----------*/
 /* ----------------------------------------------*/
+@-webkit-keyframes moveRight {
+    100% {
+        left: 0;
+    }
+}
+
 @keyframes moveRight {
-  100% {
-    left: 0;
-  }
+    100% {
+        left: 0;
+    }
 }

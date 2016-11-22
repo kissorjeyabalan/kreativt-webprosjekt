@@ -1,3 +1,13 @@
+/**
+ * CH01 - Scene Setup
+ * CH02 - Global Changes
+ * CH03 - Animations
+**/
+
+/* -----------------------------------------------*/
+/* ---------->>> CH01 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
+
 #castle {
     position: absolute;
     /*height: 600px;*/
@@ -34,30 +44,45 @@
     animation: rick 3s ease 0s 1 normal forwards, goToCodepad 3s ease 7s normal forwards;
 }
 
-#snakke-boble {
-    position: absolute;
+#dial {
     height: 95px;
     width: 230px;
     left: 100px;
     top: 313px;
-    padding-top: 25px;
-    background-color: #fff;
     -webkit-border-radius: 60% 60% 1% 60%;
     border-radius: 60% 60% 1% 60%;
-    border: 2px solid black;
     opacity: 0;
+    -webkit-animation: fadeIn 0.7s linear 3s 1 normal forwards, fadeOut 0.2s linear 7s 1 normal forwards;
     animation: fadeIn 0.7s linear 3s 1 normal forwards, fadeOut 0.2s linear 7s 1 normal forwards;
 }
 
-#snakke-boble p {
-    color: black;
-    text-align: center;
-    padding-top: 25px;
-}
-
+/* --------------------------------------------------*/
+/* ---------->>> CH02 - GLOBAL CHANGES <<<-----------*/
+/* --------------------------------------------------*/
 .slide-phone-up {
     animation-delay: 10.3s;
     animation-duration: 1.5s;
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+@-webkit-keyframes rick {
+    0% {
+        left: -20px;
+    }
+    5% {
+        transform: rotate(10deg);
+    }
+    85% {
+        transform: rotate(5deg);
+    }
+    95% {
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 320px;
+    }
 }
 
 @keyframes rick {
@@ -75,6 +100,24 @@
     }
     100% {
         left: 320px;
+    }
+}
+
+@-webkit-keyframes goToCodepad {
+    0% {
+        left: 320px;
+    }
+    5% {
+        transform: rotate(10deg);
+    }
+    85% {
+        transform: rotate(5deg);
+    }
+    95% {
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 510px;
     }
 }
 

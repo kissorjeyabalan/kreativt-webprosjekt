@@ -11,13 +11,13 @@
 /* Brick starts to the left of container and is then moved to the right of the
    scene using the animation moveRight. */
 #brick {
-  position: absolute;
-  height: 300px;
-  right: 985px;
-  bottom: 10px;
-  transform: rotate(5deg);
-  -webkit-animation: moveRight 5s linear 3s 1 normal forwards;
-  animation: moveRight 5s linear 3s 1 normal forwards;
+    position: absolute;
+    height: 300px;
+    right: 985px;
+    bottom: 10px;
+    transform: rotate(5deg);
+    -webkit-animation: moveRight 5s linear 3s 1 normal forwards;
+    animation: moveRight 5s linear 3s 1 normal forwards;
 }
 
 /* ------------------------------------------------------*/
@@ -25,8 +25,8 @@
 /* ------------------------------------------------------*/
 
 .fade-in {
-  animation-delay: 8s;
-  animation-duration: 1s;
+    animation-delay: 8s;
+    animation-duration: 1s;
 }
 
 /* ----------------------------------------------*/
@@ -34,13 +34,13 @@
 /* ----------------------------------------------*/
 
 @-webkit-keyframes moveRight {
-  100% {
-    right: -145px;
-  }
+    100% {
+        right: -145px;
+    }
 }
 
 @keyframes moveRight {
-  100% {
-    right: -145px;
-  }
+    100% {
+        right: -145px;
+    }
 }

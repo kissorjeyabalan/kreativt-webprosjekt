@@ -12,41 +12,28 @@
    scene using the animation moveRight. */
 
 #brick {
-  position: absolute;
-  height: 275px;
-  bottom: 15px;
-  left: 300px;
-  -webkit-animation: moveRight 2s linear 3s 1 normal forwards;
-  animation: moveRight 2s linear 3s 1 normal forwards;
+    position: absolute;
+    height: 275px;
+    bottom: 15px;
+    left: 300px;
+    -webkit-animation: moveRight 2s linear 3s 1 normal forwards;
+    animation: moveRight 2s linear 3s 1 normal forwards;
 }
 
 /* Snakkeboble for Brick dialog 1, forsvinner for sømløst overgang*/
-#snakke-boble {
-  position: absolute;
-  height: 90px;
-  width: 300px;
-  left: 370px;
-  top: 253px;
-  padding-top: 25px;
-  background-color: #fff;
-  -webkit-border-radius: 45% 45% 45% 1%;
-  border-radius: 60% 60% 60% 1%;
-  border:2px solid black;
-  opacity: 1;
-  -webkit-animation: fadeOut 1s linear 1s 1 normal forwards;
-  animation: fadeOut 1s linear 1s 1 normal forwards;
+#dial {
+    -webkit-border-radius: 45% 45% 45% 1%;
+    border-radius: 60% 60% 60% 1%;
+    border: 2px solid black;
+    opacity: 1;
+    -webkit-animation: fadeOut 1s linear 1s 1 normal forwards;
+    animation: fadeOut 1s linear 1s 1 normal forwards;
 }
-  #snakke-boble p {
-    color: black;
-    text-align: center;
-    padding-top: 25px;
-  }
 
 /* Old scene cleanup */
-
 #old-scene {
-  animation-delay: 5s;
-  animation-duration: 1s;
+    animation-delay: 5s;
+    animation-duration: 1s;
 }
 
 /* ------------------------------------------------------*/
@@ -54,33 +41,32 @@
 /* ------------------------------------------------------*/
 
 .slide-phone-down {
-  -webkit-animation-delay: 1s;
-  -webkit-animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-duration: 1.5s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
 }
-
 
 /* ----------------------------------------------*/
 /* ---------->>> CH03 - ANIMATIONS <<<-----------*/
 /* ----------------------------------------------*/
 
 @-webkit-keyframes moveRight {
-  6% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(5deg);
-    left: 1000px;
-  }
+    6% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(5deg);
+        left: 1000px;
+    }
 }
 
 @keyframes moveRight {
-  6% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(5deg);
-    left: 1000px;
-  }
+    6% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(5deg);
+        left: 1000px;
+    }
 }

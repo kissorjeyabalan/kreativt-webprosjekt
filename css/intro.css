@@ -4,8 +4,6 @@
  * CH03 - Animations
 **/
 
-
-
 /* -------------------------------------------------*/
 /* ---------->>> CH01 - CONTENT SETUP <<<-----------*/
 /* -------------------------------------------------*/
@@ -25,15 +23,16 @@
     transform-origin: 50% 100%;
     transform: perspective(300px) rotateX(25deg);
 }
-  #intro:after {
-      position: absolute;
-      color: black;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 60%;
-      background-image: linear-gradient(top, rgba(0, 0, 0, 1) 0%, transparent 100%);
-  }
+
+#intro:after {
+    position: absolute;
+    color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60%;
+    background-image: linear-gradient(top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+}
 
 #intro-content {
     position: absolute;
@@ -69,12 +68,14 @@
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
+
 #start-game {
     -webkit-animation-delay: 15s;
     animation-delay: 15s;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
+
 /* --------------------------------------------------------*/
 /* ---------->>> CH02 - GLOBAL STYLE CHANGES <<<-----------*/
 /* --------------------------------------------------------*/
@@ -86,8 +87,6 @@ a:link, a:visited {
 a:active, a:hover {
     color: #f56363;
 }
-
-
 
 /* ----------------------------------------------*/
 /* ---------->>> CH03 - ANIMATIONS <<<-----------*/

@@ -129,11 +129,6 @@ a:hover {
     animation: fadeOut 2s linear 1s 1 normal forwards;
 }
 
-.fade-in-out {
-    -webkit-animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
-    animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
-}
-
 .show {
     opacity: 1;
 }

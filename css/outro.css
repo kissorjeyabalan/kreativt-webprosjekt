@@ -1,17 +1,27 @@
-.container {
-  position: relative;
-  overflow: hidden;
-  width: 978px;
-  height: 600px;
-  margin: 50px auto;
-  background: radial-gradient(circle, #0000CD, #8B4513);
+/**
+ * CH01 - Global Changes
+ * CH02 - Basic Styling
+**/
+
+/* --------------------------------------------------*/
+/* ---------->>> CH01 - GLOBAL CHANGES <<<-----------*/
+/* --------------------------------------------------*/
+
+#container {
+    background: radial-gradient(circle, #0000CD, #8B4513);
 }
-a{
+
+a {
     position: absolute;
     height: 180px;
     left: 250px;
 }
-p{
+
+
+/* -------------------------------------------------*/
+/* ---------->>> CH02 - BASIC STYLING <<<-----------*/
+/* -------------------------------------------------*/
+p {
     position: absolute;
     color: beige;
     height: 260px;
@@ -19,40 +29,44 @@ p{
     font-family: cursive;
     left: 10px;
 }
-#dancerick{
+
+#dancerick {
     position: absolute;
     height: 400px;
     width: 500px;
     right: -20px;
-    }
+}
 
-.winner {
-   
+#winner {
     -webkit-animation: blink normal 2s infinite ease-in-out;
-    
     animation: blink normal 2s infinite ease-in-out;
 }
 
+
+/* ----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
 @keyframes blink {
     0% {
-        opacity:1;
+        opacity: 1;
     }
     50% {
-        opacity:0;
+        opacity: 0;
     }
     100% {
-        opacity:1;
+        opacity: 1;
     }
-} 
+}
 
 @-webkit-keyframes blink {
     0% {
-        opacity:1;
+        opacity: 1;
     }
     50% {
-        opacity:0;
+        opacity: 0;
     }
     100% {
-        opacity:1;
+        opacity: 1;
     }
 }
