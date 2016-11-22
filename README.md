@@ -1,3 +1,4 @@
 # pro100-eks
 
-aliergh,kerhgkerhwgliehkut
+Eksamen i PRO100-1 16H Kreativ webprosjekt.
+14. - 25. nov
