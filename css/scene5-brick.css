@@ -1,0 +1,111 @@
+/**
+ * CH01 - Scene Setup
+ * CH02 - Animations
+**/
+
+/* -----------------------------------------------*/
+/* ---------->>> CH01 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
+#tech {
+    position: absolute;
+    height: 100%;
+}
+
+#brick {
+    position: absolute;
+    height: 322px;
+    bottom: 10px;
+    left: 100px;
+    -webkit-animation: brickFalling 1.3s ease .7s 1 normal forwards;
+    animation: brickFalling 1.3s ease .7s 1 normal forwards;
+}
+
+#boss {
+    position: absolute;
+    width: 395px;
+    left: 350px;
+    top: -20px;
+}
+
+#kjeks {
+    position: absolute;
+    width: 80px;
+    left: 450px;
+    top: 500px;
+}
+
+#bazooka {
+    position: absolute;
+    width: 190px;
+    left: 700px;
+    top: 524px;
+    transform: rotate(0deg);
+}
+
+.laser-beam {
+    position: absolute;
+    width: 27px;
+    height: 8px;
+    top: 58px;
+    left: 522px;
+    transform: rotate(-53deg);
+    opacity: 0;
+    -webkit-animation: shootBeam 1s linear 0s 1 normal forwards;
+    animation: shootBeam 1s linear 0s 1 normal forwards;
+}
+
+#beam1 {
+    background-color: red;
+}
+
+#beam2 {
+    background-color: magenta;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+
+#beam3 {
+    background-color: greenyellow;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
+/* ---------------------------------------------------*/
+/* ---------->>> CH02 - GAME OVER SETUP <<<-----------*/
+/* ---------------------------------------------------*/
+
+#game-over {
+    animation-delay: .6s;
+    animation-duration: 0.7s;
+}
+/* ----------------------------------------------*/
+/* ---------->>> CH05 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
+@keyframes shootBeam {
+    0% {
+        opacity: 1;
+    }
+    95% {
+        top: 348px;
+        left: 172px;
+    }
+    97% {
+        width: 27px;
+    }
+    100% {
+        opacity: 1;
+        top: 348px;
+        left: 172px;
+        width: 0;
+    }
+}
+
+@keyframes brickFalling {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-16deg);
+    }
+}
