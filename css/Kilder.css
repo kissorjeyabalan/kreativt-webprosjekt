@@ -1,4 +1,4 @@
-h1{
+    h1{
         font-family:monospace;
         color: black;
     }
@@ -10,4 +10,7 @@ h1{
     h3{
         color: black;
         font-family: monospace;
+    }
+    body{
+    background-color: beige;    
     }

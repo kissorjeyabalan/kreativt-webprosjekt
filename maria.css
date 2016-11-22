@@ -1,0 +1,85 @@
+
+#rickSegway {
+    
+  position: absolute;
+  height: 400px;
+  left: 160px;
+  bottom: 15px;
+  transform: rotate(5deg);
+  animation: rickSegway 4s linear 0s 1 normal forwards;
+}
+    
+#evildog {
+    position: absolute;
+    height: 300px;
+    left:0;
+    bottom: ;
+    padding-right: 500px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    animation: evildog 2s linear 3s 1 normal forwards;
+  
+}
+
+#snakke-boble {
+    position: absolute;
+    height: 90px; 
+    width: 120px;
+    left: 410px;
+    top: 200px;
+    padding-top: 25px;
+    background-color: #fff;
+    -webkit-border-radius: 45%;
+    border-radius: 60%;
+	-webkit-border-bottom-left-radius: 1%;
+    border-bottom-left-radius: 1%;
+	border:2px solid black;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
+    animation: fadeIn 1s linear 6s 1 normal forwards;
+}
+
+#snakke-boble p {
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+    right: 201px;
+    top: 269px;
+}
+
+.fade-in{
+  animation-delay: 8s;
+  animation-duration: 0.5s;
+}
+
+@keyframes rickSegway {
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    left: 300px;
+    }
+}
+
+@keyframes evildog {
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    right: 300px;
+  }
+}
+
+
