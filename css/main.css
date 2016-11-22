@@ -168,7 +168,24 @@ a:hover {
   top: 210px;
 }
 
-
+.snakke-boble {
+  position: absolute;
+  height: 90px;
+  width: 300px;
+  left: 370px;
+  top: 253px;
+  padding-top: 25px;
+  background-color: #fff;
+  -webkit-border-radius: 60% 60% 60% 1%;
+  border-radius: 60% 60% 60% 1%;
+  border:2px solid black;
+  opacity: 1;
+}
+.snakke-boble p {
+  color: black;
+  text-align: center;
+  padding-top: 25px;
+}
 
 /* ----------------------------------------------*/
 /* ---------->>> CH04 - Animations <<<-----------*/
