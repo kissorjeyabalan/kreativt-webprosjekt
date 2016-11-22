@@ -1,0 +1,137 @@
+/**
+ * CH01 - Scene Setup
+ * CH02 - End Game
+ * CH03 - Animations
+**/
+
+/* -----------------------------------------------*/
+/* ---------->>> CH01 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
+#tech {
+    position: absolute;
+    height: 100%;
+}
+
+#brick {
+    position: absolute;
+    height: 322px;
+    bottom: 10px;
+    left: 100px;
+}
+
+#boss {
+    position: absolute;
+    height: 524px;
+    left: 350px;
+    top: -20px;
+    transform: rotate(0deg);
+    -webkit-animation: bossLeaves 4s ease 0s 1 normal forwards;
+    animation: bossLeaves 4s ease 0s 1 normal forwards;
+}
+
+#dog {
+    position: absolute;
+    height: 130px;
+    left: 924px;
+    bottom: 74px;
+    transform: scaleX(-1) rotate(0deg);
+    -webkit-animation: doggoComes 4s ease 4s 1 normal forwards;
+    animation: doggoComes 4s ease 4s 1 normal forwards;
+}
+
+#kjeks {
+    position: absolute;
+    width: 80px;
+    left: 450px;
+    top: 500px;
+}
+
+#bazooka {
+    position: absolute;
+    width: 190px;
+    left: 700px;
+    top: 524px;
+    transform: rotate(0deg);
+}
+
+
+/* --------------------------------------------*/
+/* ---------->>> CH01 - END GAME <<<-----------*/
+/* --------------------------------------------*/
+
+#end-game {
+    animation-delay: 8s;
+    animation-duration: .5s;
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
+@keyframes bossLeaves {
+    10% {
+        transform: rotate(-8deg);
+    }
+    20% {
+        transform: rotate(8deg);
+    }
+    30% {
+        transform: rotate(-8deg);
+    }
+    40% {
+        transform: rotate(8deg);
+    }
+    50% {
+        transform: rotate(-8deg);
+    }
+    60% {
+        transform: rotate(8deg);
+    }
+    70% {
+        transform: rotate(-8deg);
+    }
+    80% {
+        transform: rotate(8deg);
+    }
+    90% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        left: 989px;
+    }
+}
+
+@keyframes doggoComes {
+    10% {
+        transform: scaleX(-1) rotate(10deg);
+    }
+    20% {
+        transform: scaleX(-1) rotate(-10deg);
+    }
+    30% {
+        transform: scaleX(-1) rotate(10deg);
+    }
+    40% {
+        transform: scaleX(-1) rotate(-10deg);
+    }
+    50% {
+        transform: scaleX(-1) rotate(10deg);
+    }
+    60% {
+        transform: scaleX(-1) rotate(-10deg);
+    }
+    70% {
+        transform: scaleX(-1) rotate(10deg);
+    }
+    80% {
+        transform: scaleX(-1) rotate(-10deg);
+    }
+    90% {
+        transform: scaleX(-1) rotate(10deg);
+    }
+    100% {
+        left: 494px;
+        bottom: 74px;
+        transform: scaleX(-1) rotate(0deg);
+    }
+}
