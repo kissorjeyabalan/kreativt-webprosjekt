@@ -62,15 +62,6 @@
 }
 
 /* game over */
-.text {
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 600px;
-    font-size: 20px;
-    right: 201px;
-    top: 269px;
-}
 
 .fade-in {
     animation-delay: 9s;

@@ -22,16 +22,6 @@
 /* ---------->>> CH02 - GAME OVER SETUP <<<-----------*/
 /* ---------------------------------------------------*/
 
-.text {
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 600px;
-    font-size: 20px;
-    right: 201px;
-    top: 269px;
-}
-
 .fade-in {
     animation-delay: 3.5s;
     animation-duration: 0.5s;
