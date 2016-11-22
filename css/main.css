@@ -6,8 +6,6 @@
  * CH05 - Animations
 **/
 
-
-
 /* -----------------------------------------*/
 /* ---------->>> CH01 - RESET <<<-----------*/
 /* -----------------------------------------*/
@@ -33,10 +31,10 @@ section,
 article,
 footer,
 audio {
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
 }
 
 /* Reset HTML-5 display for older browsers */
@@ -44,147 +42,157 @@ article,
 footer,
 header,
 section {
-  display: block;
+    display: block;
 }
-
-
 
 /* -------------------------------------------------*/
 /* ---------->>> CH02 - BASIC STYLING <<<-----------*/
 /* -------------------------------------------------*/
 html {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-  height: auto;
-  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans, serif;
-  font-size: 13px;
-  color: black;
-  background-color: #000;
+    height: auto;
+    font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans, serif;
+    font-size: 13px;
+    color: black;
+    background-color: #000;
 }
 
 a,
 a:link,
 a:visited {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 a:active,
 a:hover {
-  color: #f56363;
+    color: #f56363;
 }
-
-
 
 /* --------------------------------------------------*/
 /* ---------->>> CH03 - GLOBAL CONTENT <<<-----------*/
 /* --------------------------------------------------*/
 .container {
-  position: relative;
-  overflow: hidden;
-  width: 978px;
-  height: 600px;
-  margin: 50px auto;
-  background-color: #000;
+    position: relative;
+    overflow: hidden;
+    width: 978px;
+    height: 600px;
+    margin: 50px auto;
+    background-color: #000;
 }
 
 .container-cover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
 }
 
 .iphone {
-  position: absolute;
-  left: 505px;
-  width: 100%;
+    position: absolute;
+    left: 505px;
+    width: 100%;
 }
+
 .iphone img {
-  width: 70%;
+    width: 70%;
 }
+
 .iphone .text-box {
-  position: absolute;
-  top: 181px;
-  left: 245px;
-  width: 205px;
-  height: 10px;
-  font-size: 13px;
-  color: white;
+    position: absolute;
+    top: 181px;
+    left: 245px;
+    width: 205px;
+    height: 10px;
+    font-size: 13px;
+    color: white;
 }
+
 .iphone .text-box p {
-  position: relative;
+    position: relative;
 }
 
 /* -------------------------------------------*/
 /* ---------->>> CH04 - Helpers <<<-----------*/
 /* -------------------------------------------*/
 .fade-in {
-  -webkit-animation: fadeIn 2s linear 1s 1 normal forwards;
-          animation: fadeIn 2s linear 1s 1 normal forwards;
+    -webkit-animation: fadeIn 2s linear 1s 1 normal forwards;
+    animation: fadeIn 2s linear 1s 1 normal forwards;
 }
 
 .fade-out {
-  -webkit-animation: fadeOut 2s linear 1s 1 normal forwards;
-          animation: fadeOut 2s linear 1s 1 normal forwards;
+    -webkit-animation: fadeOut 2s linear 1s 1 normal forwards;
+    animation: fadeOut 2s linear 1s 1 normal forwards;
 }
 
 .fade-in-out {
-  -webkit-animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
-          animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
+    -webkit-animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
+    animation: fadeIn 2s linear 0s 1 normal forwards, fadeOut 2s linear 3s 1 normal forwards;
 }
 
 .show {
-  opacity: 1;
+    opacity: 1;
 }
 
 .hide {
-  opacity: 0;
+    opacity: 0;
 }
 
 .slide-phone {
-  -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
-          animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
+    -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
+    animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
 }
 
 .slide-phone-down {
-  -webkit-animation: slidePhoneDown 3s linear 2s 1 normal forwards;
-          animation: slidePhoneDown 3s linear 2s 1 normal forwards;
+    -webkit-animation: slidePhoneDown 3s linear 2s 1 normal forwards;
+    animation: slidePhoneDown 3s linear 2s 1 normal forwards;
 }
 
 .slide-phone-up {
-  -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards;
-          animation: slidePhoneUp 3s linear 1s 1 normal forwards;
+    -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards;
+    animation: slidePhoneUp 3s linear 1s 1 normal forwards;
 }
 
 .hide-phone {
-  top: 545px;
+    top: 545px;
 }
 
 .show-phone {
-  top: 210px;
+    top: 210px;
 }
 
 .snakke-boble {
-  position: absolute;
-  height: 90px;
-  width: 300px;
-  left: 370px;
-  top: 253px;
-  padding-top: 25px;
-  background-color: #fff;
-  -webkit-border-radius: 60% 60% 60% 1%;
-  border-radius: 60% 60% 60% 1%;
-  border:2px solid black;
-  opacity: 1;
+    position: absolute;
+    height: 90px;
+    width: 300px;
+    left: 370px;
+    top: 253px;
+    padding-top: 25px;
+    background-color: #fff;
+    -webkit-border-radius: 60% 60% 60% 1%;
+    border-radius: 60% 60% 60% 1%;
+    border: 2px solid black;
+    opacity: 1;
 }
+
 .snakke-boble p {
-  color: black;
-  text-align: center;
-  padding-top: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+    right: 201px;
+    top: 269px;
 }
 
 /* ----------------------------------------------*/
@@ -192,77 +200,77 @@ a:hover {
 /* ----------------------------------------------*/
 
 @-webkit-keyframes slidePhoneUp {
-  0% {
-  }
-  100% {
-    top: 210px;
-  }
+    0% {
+    }
+    100% {
+        top: 210px;
+    }
 }
 
 @keyframes slidePhoneUp {
-  0% {
-  }
-  100% {
-    top: 210px;
-  }
+    0% {
+    }
+    100% {
+        top: 210px;
+    }
 }
 
 /* --------------------------------------- */
 
 @-webkit-keyframes slidePhoneDown {
-  0% {
-    top: 210px;
-  }
-  100% {
-    top: 545px;
-  }
+    0% {
+        top: 210px;
+    }
+    100% {
+        top: 545px;
+    }
 }
 
 @keyframes slidePhoneDown {
-  0% {
-    top: 210px;
-  }
-  100% {
-    top: 545px;
-  }
+    0% {
+        top: 210px;
+    }
+    100% {
+        top: 545px;
+    }
 }
 
 /* --------------------------------------- */
 
 @-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* --------------------------------------- */
 
 @-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 @keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
