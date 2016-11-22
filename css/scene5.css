@@ -1,4 +1,37 @@
-/* scene setup */
+/**
+ * CH01 - Scene Globals
+ * CH02 - Scene Setup
+ * CH03 - Infobox Setup
+ * CH04 - Infobox Hover
+ * CH05 - Animations
+**/
+
+/* -------------------------------------------------*/
+/* ---------->>> CH01 - SCENE GLOBALS <<<-----------*/
+/* -------------------------------------------------*/
+.info-box {
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    border: 2px solid black;
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.info-box p {
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+/* -----------------------------------------------*/
+/* ---------->>> CH02 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
 #tech {
     position: absolute;
     height: 100%;
@@ -23,7 +56,7 @@
     width: 190px;
     left: 700px;
     top: 524px;
-    transform: rotate(15deg);
+    /*transform: rotate(15deg);*/
 }
 
 #kjeks {
@@ -33,7 +66,64 @@
     top: 500px;
 }
 
-/* animations */
+/* Snakkeboble * ---> */
+#dial1 {
+    height: 97px;
+    width: 245px;
+    left: 196px;
+    top: 233px;
+    opacity: 0;
+    -webkit-animation: fadeIn .5s linear 3s 1 normal forwards, fadeOut .5s linear 6s 1 normal forwards;
+    animation: fadeIn .5s linear 3s 1 normal forwards, fadeOut .5s linear 6s 1 normal forwards;
+}
+
+#dial1 p {
+    padding-top: 5px;
+}
+
+/* <----- */
+
+
+/* -------------------------------------------------*/
+/* ---------->>> CH03 - INFOBOX SETUP <<<-----------*/
+/* -------------------------------------------------*/
+
+#bazooka-text {
+    left: 596px;
+    top: 423px;
+}
+
+#cookie-text {
+    left: 269px;
+    top: 425px;
+}
+
+#rick-text {
+    left: 199px;
+    top: 285px;
+}
+
+/* --------------------------------------------------*/
+/* ---------->>> CH04 - INFOBOX HOVERS <<<-----------*/
+/* --------------------------------------------------*/
+
+#hover1:hover + #bazooka-text {
+    opacity: 1;
+}
+
+#hover2:hover + #cookie-text {
+    opacity: 1;
+}
+
+#hover3:hover + #rick-text {
+    opacity: 1;
+}
+
+
+/* ----------------------------------------------*/
+/* ---------->>> CH05 - ANIMATIONS <<<-----------*/
+/* ----------------------------------------------*/
+
 @keyframes moveRight {
     from {
         left: -100px;
@@ -41,4 +131,12 @@
     to {
         left: 100px;
     }
+}
+
+a img {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+a img:hover {
+    transform: scale(1.1);
 }
