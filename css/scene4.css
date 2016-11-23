@@ -18,8 +18,6 @@
     bottom: 0;
     padding-right: 370px;
 
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 
