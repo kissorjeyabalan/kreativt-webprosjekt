@@ -5,8 +5,8 @@
 #rick {
     position: absolute;
     height: 400px;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     animation: rick 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
 
 }
@@ -25,26 +25,19 @@
 
 }
 
-#snakkeboble {
-    position: absolute;
+#dial {
     height: 80px;
-    width: 300px;
     left: 290px;
     top: 200px;
     padding-top: 55px;
     padding-left: 20px;
-    background-color: #fff;
-
-    -webkit-border-radius: 45%;
-    border-radius: 60%;
-
-    -webkit-border-bottom-left-radius: 1%;
-    border-bottom-left-radius: 1%;
-    border: 2px solid black;
     opacity: 0;
     -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
     animation: fadeIn 1s linear 2s 1 normal forwards;
+}
 
+#dial p{
+    padding-top: 0;
 }
 
 #alternativer {
@@ -57,7 +50,7 @@
     padding-top: 90px;
     padding-left: 20px;
     color: black;
-
+    text-align: center;
     opacity: 0;
     -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
     animation: fadeIn 1s linear 2s 1 normal forwards;
