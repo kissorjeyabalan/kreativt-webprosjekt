@@ -7,20 +7,26 @@
 /* ---------->>> CH01 - SCENE SETUP <<<-----------*/
 /* -----------------------------------------------*/
 
+#bg {
+    width: 100%;
+}
 #segway {
     position: absolute;
     height: 200px;
     bottom: 0;
-    left: 0;
-    -webkit-animation: rick 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
-    animation: rick 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
+    left: 160px;
+    -webkit-animation: segway 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
+    animation: segway 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
 }
 
 #rick {
     position: absolute;
     height: 400px;
     bottom: -20px;
-    left: 0;
+    left: 160px;
+    transform: rotate(0deg);
+    -webkit-animation: rickRun 2s linear 1.7s 1 normal forwards;
+    animation: rickRun 2s linear 1.7s 1 normal forwards;
 }
 
 #vakthund {
@@ -38,10 +44,6 @@
     height: 350px;
     left: 300px;
     bottom: -30px;
-    padding-right: 370px;
-    -webkit-border-bottom-left-radius: 1%;
-    border-bottom-left-radius: 1%;
-    border: 2px solid black;
     opacity: 0;
     -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
     animation: fadeIn 1s linear 2s 1 normal forwards;
@@ -50,9 +52,9 @@
 /* ----------------------------------------------*/
 /* ---------->>> CH02 - ANIMATIONS <<<-----------*/
 /* ----------------------------------------------*/
-@-webkit-keyframes rick {
+@-webkit-keyframes segway {
     0% {
-        left: 0px;
+        left: 160px;
     }
     5% {
         transform: rotate(10deg);
@@ -68,9 +70,9 @@
     }
 }
 
-@keyframes rick {
+@keyframes segway {
     0% {
-        left: 0px;
+        left: 160px;
     }
     5% {
         transform: rotate(10deg);
@@ -83,5 +85,38 @@
     }
     100% {
         left: 500px;
+    }
+}
+
+@keyframes rickRun {
+    10% {
+        transform: rotate(10deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    30% {
+        transform: rotate(10deg);
+    }
+    40% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    70% {
+        transform: rotate(10deg);
+    }
+    80% {
+        transform: rotate(-10deg);
+    }
+    90% {
+        transform: rotate(10deg);
+    }
+    100% {
+        left: 970px;
     }
 }
