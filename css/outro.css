@@ -7,11 +7,11 @@
 /* ---------->>> CH01 - GLOBAL CHANGES <<<-----------*/
 /* --------------------------------------------------*/
 
-#container {
-    background: radial-gradient(circle, #0000CD, #8B4513);
+.container {
+  background: radial-gradient(circle, #0000CD, #8B4513);
 }
 
-a {
+a{
     position: absolute;
     height: 180px;
     left: 250px;
