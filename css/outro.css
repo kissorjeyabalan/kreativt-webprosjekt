@@ -17,16 +17,15 @@ a{
     left: 30px;
 }
 
-
 /* -------------------------------------------------*/
 /* ---------->>> CH02 - BASIC STYLING <<<-----------*/
 /* -------------------------------------------------*/
-p {
+p{
     position: absolute;
-    color: beige;
+    color: yellow;
     height: 260px;
     font-size: 4em;
-    font-family: cursive;
+    font-family:serif; 
     left: 10px;
 }
 
