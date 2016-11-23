@@ -4,8 +4,8 @@
 
 #rick {
     position: absolute;
-    height: 300px;
-    bottom: 50px;
+    height: 400px;
+    bottom: 0;
     left: 0;
     animation: rick 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
 
@@ -13,27 +13,20 @@
 
 #vakthund {
     position: absolute;
-    height: 360px;
-    left: 500px;
+    height: 300px;
+    left: 0;
     bottom: 0;
     padding-right: 370px;
-    
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
 }
-
-    #hund {
-        position: absolute;
-        width: 20%;
-        left: 660px;
-        top: 470px;
-        }
-
-    
-
 
 #dial {
     height: 80px;
-    left: 170px;
-    top: 180px;
+    left: 290px;
+    top: 200px;
     padding-top: 55px;
     padding-left: 20px;
     opacity: 0;
@@ -50,8 +43,8 @@
     position: absolute;
     height: 80px;
     width: 300px;
-    left: 170px;
-    top: 190px;
+    left: 290px;
+    top: 200px;
     padding-top: 90px;
     padding-left: 20px;
     color: black;
@@ -76,7 +69,7 @@ a:hover {
 
 @keyframes rick {
     0% {
-        left: -200px;
+        left: -20px;
     }
     5% {
         transform: rotate(10deg);
@@ -88,6 +81,6 @@ a:hover {
         transform: rotate(0deg);
     }
     100% {
-        left: 90px;
+        left: 160px;
     }
 }
