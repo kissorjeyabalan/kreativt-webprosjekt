@@ -56,7 +56,7 @@
     width: 190px;
     left: 700px;
     top: 524px;
-    /*transform: rotate(15deg);*/
+    /*transform: rotate(15deg);*/;
 }
 
 #kjeks {
@@ -128,6 +128,7 @@
     from {
         left: -100px;
     }
+
     to {
         left: 100px;
     }
@@ -137,6 +138,7 @@ a img {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
+
 a img:hover {
     transform: scale(1.1);
 }

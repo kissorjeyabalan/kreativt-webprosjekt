@@ -192,6 +192,7 @@ a:hover {
 @-webkit-keyframes slidePhoneUp {
     0% {
     }
+
     100% {
         top: 210px;
     }
@@ -200,6 +201,7 @@ a:hover {
 @keyframes slidePhoneUp {
     0% {
     }
+
     100% {
         top: 210px;
     }
@@ -211,6 +213,7 @@ a:hover {
     0% {
         top: 210px;
     }
+
     100% {
         top: 545px;
     }
@@ -220,6 +223,7 @@ a:hover {
     0% {
         top: 210px;
     }
+
     100% {
         top: 545px;
     }
@@ -231,6 +235,7 @@ a:hover {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -240,6 +245,7 @@ a:hover {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -251,6 +257,7 @@ a:hover {
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }
@@ -260,6 +267,7 @@ a:hover {
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }

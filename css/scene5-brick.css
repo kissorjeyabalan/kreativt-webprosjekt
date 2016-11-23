@@ -86,13 +86,16 @@
     0% {
         opacity: 1;
     }
+
     95% {
         top: 348px;
         left: 172px;
     }
+
     97% {
         width: 27px;
     }
+
     100% {
         opacity: 1;
         top: 348px;
@@ -105,6 +108,7 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(-16deg);
     }

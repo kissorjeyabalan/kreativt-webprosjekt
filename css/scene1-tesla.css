@@ -39,19 +39,23 @@
         left: 355px;
         transform: rotate(1deg);
     }
+
     80% {
         top: 202px;
         left: 433px;
         transform: rotate(13deg);
     }
+
     82% {
         top: 207px;
         left: 446px;
         transform: rotate(16deg);
     }
+
     85% {
         transform: rotate(50deg);
     }
+
     100% {
         top: 630px;
         left: 465px;
@@ -65,19 +69,23 @@
         left: 355px;
         transform: rotate(1deg);
     }
+
     80% {
         top: 202px;
         left: 433px;
         transform: rotate(13deg);
     }
+
     82% {
         top: 207px;
         left: 446px;
         transform: rotate(16deg);
     }
+
     85% {
         transform: rotate(50deg);
     }
+
     100% {
         top: 630px;
         left: 465px;

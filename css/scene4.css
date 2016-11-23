@@ -1,3 +1,13 @@
+/**
+ * CH01 - Scene Setup
+ * CH02 - Global Override
+ * CH03 - Animations
+**/
+
+/* -----------------------------------------------*/
+/* ---------->>> CH01 - SCENE SETUP <<<-----------*/
+/* -----------------------------------------------*/
+
 #bg {
     width: 100%;
 }
@@ -8,7 +18,6 @@
     bottom: 0;
     left: 0;
     animation: rick 4s ease 0s 1 normal forwards, 3s ease 7s normal forwards;
-
 }
 
 #vakthund {
@@ -17,10 +26,8 @@
     left: 0;
     bottom: 0;
     padding-right: 370px;
-
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-
 }
 
 #dial {
@@ -34,12 +41,11 @@
     animation: fadeIn 1s linear 2s 1 normal forwards;
 }
 
-#dial p{
+#dial p {
     padding-top: 0;
 }
 
 #alternativer {
-
     position: absolute;
     height: 80px;
     width: 300px;
@@ -52,8 +58,11 @@
     opacity: 0;
     -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
     animation: fadeIn 1s linear 2s 1 normal forwards;
-
 }
+
+/* ---------------------------------------------------*/
+/* ---------->>> CH02 - GLOBAL OVERRIDE <<<-----------*/
+/* ---------------------------------------------------*/
 
 a,
 a:link,
@@ -67,19 +76,48 @@ a:hover {
     color: #f56363;
 }
 
+/* -----------------------------------------------*/
+/* ---------->>> CH03 - ANIMATIONS <<<-----------*/
+/* -----------------------------------------------*/
+@-webkit-keyframes rick {
+    0% {
+        left: -20px;
+    }
+
+    5% {
+        transform: rotate(10deg);
+    }
+
+    85% {
+        transform: rotate(5deg);
+    }
+
+    95% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        left: 160px;
+    }
+}
+
 @keyframes rick {
     0% {
         left: -20px;
     }
+
     5% {
         transform: rotate(10deg);
     }
+
     85% {
         transform: rotate(5deg);
     }
+
     95% {
         transform: rotate(0deg);
     }
+
     100% {
         left: 160px;
     }

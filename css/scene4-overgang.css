@@ -10,6 +10,7 @@
 #bg {
     width: 100%;
 }
+
 #segway {
     position: absolute;
     height: 200px;
@@ -56,15 +57,19 @@
     0% {
         left: 160px;
     }
+
     5% {
         transform: rotate(10deg);
     }
+
     85% {
         transform: rotate(5deg);
     }
+
     95% {
         transform: rotate(0deg);
     }
+
     100% {
         left: 500px;
     }
@@ -74,15 +79,19 @@
     0% {
         left: 160px;
     }
+
     5% {
         transform: rotate(10deg);
     }
+
     85% {
         transform: rotate(5deg);
     }
+
     95% {
         transform: rotate(0deg);
     }
+
     100% {
         left: 500px;
     }
@@ -92,30 +101,39 @@
     10% {
         transform: rotate(10deg);
     }
+
     20% {
         transform: rotate(-10deg);
     }
+
     30% {
         transform: rotate(10deg);
     }
+
     40% {
         transform: rotate(-10deg);
     }
+
     50% {
         transform: rotate(10deg);
     }
+
     60% {
         transform: rotate(-10deg);
     }
+
     70% {
         transform: rotate(10deg);
     }
+
     80% {
         transform: rotate(-10deg);
     }
+
     90% {
         transform: rotate(10deg);
     }
+
     100% {
         left: 970px;
     }
