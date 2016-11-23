@@ -137,11 +137,6 @@ a:hover {
     opacity: 0;
 }
 
-.slide-phone {
-    -webkit-animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
-    animation: slidePhoneUp 3s linear 1s 1 normal forwards, slidePhoneDown 3s linear 7s 1 normal forwards;
-}
-
 .slide-phone-down {
     -webkit-animation: slidePhoneDown 3s linear 2s 1 normal forwards;
     animation: slidePhoneDown 3s linear 2s 1 normal forwards;
