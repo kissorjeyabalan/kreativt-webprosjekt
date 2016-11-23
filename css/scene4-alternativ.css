@@ -7,6 +7,9 @@
 /* -----------------------------------------------*/
 /* ---------->>> CH01 - SCENE SETUP <<<-----------*/
 /* -----------------------------------------------*/
+#bg {
+    width: 100%;
+}
 #rickSegway {
     position: absolute;
     height: 400px;
@@ -22,7 +25,7 @@
     height: 300px;
     left: 0;
     bottom: 0;
-    padding-right: 500px;
+    padding-right: 370px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     -webkit-animation: evildog 2s linear 3s 1 normal forwards;
